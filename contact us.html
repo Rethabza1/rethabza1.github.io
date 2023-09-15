@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Website</title>
+  <!-- Tailwind CSS CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN link -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Additional CSS Stylesheets -->
+  <link href="styles.css" rel="stylesheet">
+  <!-- Additional JS files -->
+  <script src="script.js"></script>
+</head>
+
+<body class="bg-gray-100">
+  <!-- Header Section -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-6 flex items-center justify-between">
+      <!-- Logo -->
+      <div class="font-bold text-xl">Logo</div>
+      <!-- Navigation Menu -->
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Motlokoa</a></li>
+          <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero bg-cover bg-center overflow-hidden"
+    style="background-image: url('https://source.unsplash.com/featured/1280x720/?tutorial')">
+    <div class="container mx-auto px-4 py-20 flex flex-col items-center">
+      <h1 class="text-4xl font-bold text-white mb-8">Learn, Register, Design, Apply</h1>
+      <a href="#" class="btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <title>Contact Us</title>
+    <style>
+        /* Style for the grey shaded box */
+        .contact-box {
+            background-color: #f0f0f0; /* Grey background color */
+            padding: 20px; /* Padding around the content */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+        }
+
+        /* Style for the embedded map */
+        .map {
+            width: 100%; /* Set map width */
+            height: 300px; /* Set map height */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-box">
+        <h2><strong>Contact Us</strong></h2>
+        <p>
+            <strong>Phone:</strong> 072 091 4588<br>
+            <strong>Email:</strong> motlokoarseervices@gmail.com<br>
+            <strong>Address:</strong> 2204 Lusaka Street, Johannesburg, South Africa, 1496
+        </p>
+
+        <!-- Embedded map (Replace with your own map iframe) -->
+        <iframe class="map"
+            src="https://www.google.com/maps/place/2204+Geranium+St,+Bluegum+View,+Brakpan,+1499/@-26.3859822,28.3876903,19z/data=!3m1!4b1!4m5!3m4!1s0x1e94df5595124113:0x31fff0c23fb9bd51!8m2!3d-26.3859822!4d28.388334?entry=ttu"
+            frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>

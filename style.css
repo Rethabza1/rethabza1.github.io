@@ -1,0 +1,144 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f5f5f5; /* Change this color to your desired background color */
+    font-family: Arial, sans-serif; /* Change the font family as needed */
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #fff; /* Background color for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to the header */
+  }
+  
+  /* Logo */
+  header .font-bold {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  /* Navigation Menu */
+  nav ul {
+    list-style: none; /* Remove bullet points from the list */
+  }
+  
+  nav ul li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('YOUR_IMAGE_URL_HERE'); /* Replace with your custom image URL */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image horizontally and vertically */
+    color: #fff; /* Text color for the hero section */
+    text-align: center; /* Center-align text */
+    padding: 100px 0; /* Adjust top and bottom padding as needed */
+  }
+  
+  /* Style the heading and button in the hero section */
+  .hero h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 20px; /* Add spacing between the heading and button */
+  }
+  
+  .hero .btn-primary {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners for the button */
+    text-decoration: none; /* Remove underline from the button */
+    font-weight: bold;
+  }
+  
+  /* Style the button on hover */
+  .hero .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Feature Cards Section */
+  .feature-card {
+    background-color: #fff; /* Card background color */
+    border-radius: 5px; /* Rounded corners for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to cards */
+    text-align: left; /* Align card content to the left */
+    padding: 20px; /* Add padding to cards */
+  }
+  
+  /* Style the icon in feature cards */
+  .feature-card i {
+    font-size: 36px; /* Adjust the icon size as needed */
+    color: #007bff; /* Icon color */
+    margin-bottom: 20px; /* Add spacing between the icon and content */
+  }
+  
+  /* Testimonial Section */
+  .testimonial {
+    text-align: center; /* Center-align testimonial content */
+    margin-bottom: 40px; /* Add spacing between testimonials */
+  }
+  
+  .testimonial img {
+    width: 100px; /* Adjust the image size as needed */
+    height: 100px;
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px; /* Add spacing between the image and text */
+  }
+  
+  /* Blog Post Section */
+  .blog-post {
+    background-color: #fff; /* Post background color */
+    border-radius: 5px; /* Rounded corners for posts */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to posts */
+    padding: 20px; /* Add padding to posts */
+    text-align: left; /* Align post content to the left */
+  }
+  
+  /* FAQ Section */
+  .faq {
+    margin-bottom: 20px; /* Add spacing between FAQ items */
+  }
+  
+  /* Team Member Section */
+  .team-member {
+    text-align: center; /* Center-align team member content */
+    margin-bottom: 20px; /* Add spacing between team members */
+  }
+  
+  .team-member img {
+    width: 150px; /* Adjust the image size as needed */
+    height: 150px;
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px; /* Add spacing between the image and text */
+  }
+  
+  /* Newsletter Subscription Section */
+  /* Customize the newsletter section as needed */
+  
+  /* Contact Form Section */
+  /* Customize the contact form section as needed */
+  
+  /* Map Section */
+  /* Customize the map section as needed */
+  
+  /* Footer Section */
+  footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Text color in the footer */
+    text-align: center; /* Center-align footer content */
+    padding: 20px 0; /* Add top and bottom padding to the footer */
+  }
+  
+  /* Social Icons in Footer */
+  footer a {
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin: 0 10px; /* Add spacing between icons */
+  }
+  
